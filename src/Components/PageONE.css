@@ -1,0 +1,66 @@
+.Total-Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    margin: 10px;
+    border-radius: 10px;
+}
+.Form-Box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(36, 13, 36);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Form-Box div{
+    display: flex;
+    flex-direction: column;
+}
+.Button-Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(79, 47, 26);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn{
+    cursor: pointer;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(7, 7, 42);
+    border: none;
+}
+.UL{
+    background-color: purple;
+    color: white;
+    height: 200px;
+    overflow: scroll;
+    margin: 10px;
+    border-radius: 10px;
+}
+.UL::-webkit-scrollbar{display: none}
+.LI{
+    list-style-type: none;
+    display: flex;
+    border: 2px solid white;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.DLT{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(7, 7, 42);
+    border: none;
+    margin: 10px;
+}
